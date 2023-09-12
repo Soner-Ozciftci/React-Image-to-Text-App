@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   const [selectedImage, setSelectedImage] = useState(null);
-  const [textResult, setTextResult] = useState("");
+  const [textResult, setTextResult] = useState("Notion,an app that every Youtuber is bragging about.Youtube is filled with productivity setups,tutorials and videos on how to use it efficiently.");
 
 const handleChange = e => {
   setSelectedImage(e.target.files[0])
