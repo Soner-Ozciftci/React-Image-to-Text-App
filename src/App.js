@@ -22,8 +22,14 @@ const handleChange = e => {
 <div className="result">
 {selectedImage && (
 <img src={URL.createObjectURL(selectedImage)} alt="thumbnail"/>
-
 )}
+{
+textResult && (
+  <div className="box-p">
+    <p>{textResult}</p>
+  </div>
+)
+}
 </div>
     </div>
   );
